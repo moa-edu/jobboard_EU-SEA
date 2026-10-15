@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Business & Management Job Market</title>
+<style>
+  :root{
+    --paper:#F5F6F2;
+    --paper-2:#FFFFFF;
+    --ink:#1C2333;
+    --ink-soft:#4A5266;
+    --ink-faint:#8A8F7E;
+    --rule:#D9D6C9;
+    --rule-strong:#B9B6A6;
+    --green:#1F6E4A;
+    --green-light:#E4EFE7;
+    --gold:#8A6A1E;
+    --gold-light:#F3ECD8;
+    --red:#9A3324;
+    --font-serif: Georgia, 'Iowan Old Style', 'Palatino Linotype', Palatino, serif;
+    --font-sans: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    --font-mono: 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font-sans);}
+  .wrap{max-width:1180px;margin:0 auto;padding:2.5rem 2rem 4rem;}
+  .masthead{border-bottom:3px double var(--ink);padding-bottom:1.1rem;margin-bottom:1.6rem;display:flex;justify-content:space-between;align-items:flex-end;gap:1.5rem;flex-wrap:wrap;}
+  .masthead h1{font-family:var(--font-serif);font-weight:700;font-size:2.1rem;margin:0 0 .3rem;letter-spacing:.2px;}
+  .masthead .sub{font-size:.92rem;color:var(--ink-soft);max-width:640px;line-height:1.5;}
+  .stamp{border:2px solid var(--gold);color:var(--gold);font-family:var(--font-mono);font-size:.68rem;letter-spacing:1.5px;text-transform:uppercase;padding:.45rem .7rem;transform:rotate(-3deg);white-space:nowrap;background:var(--gold-light);}
+  .stamp b{display:block;font-size:.82rem;letter-spacing:1px;}
+
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule);margin-bottom:1.6rem;}
+  .stat{background:var(--paper-2);padding:1rem 1.1rem;}
+  .stat .n{font-family:var(--font-serif);font-size:1.9rem;font-weight:700;line-height:1;}
+  .stat .l{font-size:.74rem;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.6px;margin-top:.35rem;}
+
+  .toolbar{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;margin-bottom:1rem;padding:.9rem 1rem;background:var(--paper-2);border:1px solid var(--rule);}
+  .toolbar select, .toolbar input[type=text]{font-family:var(--font-sans);font-size:.82rem;padding:.4rem .55rem;border:1px solid var(--rule-strong);background:#fff;color:var(--ink);}
+  .toolbar input[type=text]{flex:1;min-width:160px;}
+  .toolbar .count{font-size:.78rem;color:var(--ink-soft);margin-left:auto;font-family:var(--font-mono);}
+  .btn{font-family:var(--font-sans);font-size:.78rem;padding:.42rem .75rem;border:1px solid var(--ink);background:var(--ink);color:#fff;cursor:pointer;}
+  .btn:hover{background:var(--ink-soft);}
+  .btn.ghost{background:transparent;color:var(--ink);}
+  .btn.ghost:hover{background:var(--paper);}
+
+  table{width:100%;border-collapse:collapse;background:var(--paper-2);border:1px solid var(--rule);font-size:.83rem;}
+  thead th{text-align:left;font-family:var(--font-sans);font-weight:700;font-size:.7rem;text-transform:uppercase;letter-spacing:.5px;color:var(--ink-soft);border-bottom:2px solid var(--ink);padding:.55rem .6rem;cursor:pointer;user-select:none;white-space:nowrap;}
+  thead th:hover{color:var(--ink);}
+  tbody td{padding:.55rem .6rem;border-bottom:1px solid var(--rule);vertical-align:top;}
+  tbody tr:hover{background:var(--paper);}
+  .pos{font-weight:600;}
+  .sub-tag{display:inline-block;font-size:.68rem;padding:.12rem .4rem;border:1px solid var(--rule-strong);color:var(--ink-soft);white-space:nowrap;}
+  .type-tag{font-family:var(--font-mono);font-size:.7rem;}
+  .type-tt{color:var(--green);}
+  .type-other{color:var(--gold);}
+  .posted{font-family:var(--font-mono);font-size:.76rem;color:var(--ink-soft);}
+  a.link{color:var(--green);text-decoration:none;font-size:.78rem;border-bottom:1px solid var(--green-light);}
+  a.link:hover{border-bottom-color:var(--green);}
+
+  .note{margin-top:1.6rem;padding:1rem 1.1rem;background:var(--gold-light);border:1px solid var(--rule);font-size:.82rem;line-height:1.6;color:var(--ink-soft);}
+  .note b{color:var(--ink);}
+  .sources{margin-top:.9rem;padding:.8rem 1rem;background:var(--paper-2);border:1px solid var(--rule);font-size:.76rem;font-family:var(--font-mono);color:var(--ink-soft);}
+  .sources .ok{color:var(--green);}
+  .sources .fail{color:var(--red);}
+  .foot{margin-top:1rem;font-size:.72rem;color:var(--ink-faint);font-family:var(--font-mono);}
+  .loading, .error{padding:2rem;text-align:center;color:var(--ink-soft);font-family:var(--font-mono);font-size:.85rem;}
+  .error{color:var(--red);}
+  @media(max-width:720px){.stats{grid-template-columns:repeat(2,1fr);}.masthead{flex-direction:column;align-items:flex-start;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="masthead">
+    <div>
+      <h1>Business &amp; Management Job Market</h1>
+      <div class="sub">Open tenure-track and teaching faculty positions in management, marketing, finance and related business disciplines, refreshed nightly from public listings across North America, Europe, Asia and Australia.</div>
+    </div>
+    <div class="stamp">Last refresh<b id="stampDate">loading…</b></div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="n" id="statAll">–</div><div class="l">All listings</div></div>
+    <div class="stat"><div class="n" id="statNA">–</div><div class="l">North America</div></div>
+    <div class="stat"><div class="n" id="statEU">–</div><div class="l">Europe</div></div>
+    <div class="stat"><div class="n" id="statAsiaAus">–</div><div class="l">Asia &amp; Australia</div></div>
+  </div>
+
+  <div class="toolbar">
+    <select id="fType"><option value="">All types</option></select>
+    <select id="fSub"><option value="">All subspecialties</option></select>
+    <select id="fRegion"><option value="">All regions</option></select>
+    <input type="text" id="fSearch" placeholder="Search employer or position…">
+    <button class="btn ghost" id="btnReset">Reset</button>
+    <button class="btn" id="btnCsv">Download CSV</button>
+    <span class="count" id="rowCount"></span>
+  </div>
+
+  <div id="tableWrap">
+    <div class="loading">Loading current listings…</div>
+  </div>
+
+  <div class="foot" id="rowCountFoot"></div>
+
+  <div class="sources" id="sourceStatus"></div>
+
+  <div class="note">
+    <b>How this stays live.</b> A GitHub Actions workflow runs <code>scraper.py</code> nightly, pulling from sources that allow automated access (EconJobMarket, THEunijobs, AcademicKeys) and writing the result to <code>data/jobs.json</code>, which this page fetches on load. Boards that block automated requests outright (HigherEdJobs, Chronicle of Higher Education) are deliberately not scraped — see <code>scraper.py</code>'s header comment for why, and the per-source status above for which sources succeeded on the most recent run. The 49 listings originally compiled by hand on 2026-08-05 / 2026-10-15 are seeded in and will age out automatically after 120 days if no source re-confirms them.
+  </div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let ALL_JOBS = [];
+let sortKey = null, sortDir = 1;
+
+function typeClass(t){ return t === "Tenure-track" ? "type-tt" : "type-other"; }
+
+function populateFilters(jobs){
+  const types = [...new Set(jobs.map(d=>d.type).filter(Boolean))].sort();
+  const subs = [...new Set(jobs.map(d=>d.sub).filter(Boolean))].sort();
+  const regionOrder = ["North America","Europe","Asia","Australia"];
+  const regions = regionOrder.filter(r=>jobs.some(d=>d.region===r));
+  types.forEach(t=>{ const o=document.createElement('option'); o.value=t; o.textContent=t; $('fType').appendChild(o); });
+  subs.forEach(s=>{ const o=document.createElement('option'); o.value=s; o.textContent=s; $('fSub').appendChild(o); });
+  regions.forEach(r=>{ const o=document.createElement('option'); o.value=r; o.textContent=r; $('fRegion').appendChild(o); });
+}
+
+function renderTable(){
+  const type = $('fType').value;
+  const sub = $('fSub').value;
+  const region = $('fRegion').value;
+  const q = $('fSearch').value.trim().toLowerCase();
+  let rows = ALL_JOBS.filter(d=>{
+    if(type && d.type!==type) return false;
+    if(sub && d.sub!==sub) return false;
+    if(region && d.region!==region) return false;
+    if(q && !((d.employer||'').toLowerCase().includes(q) || (d.position||'').toLowerCase().includes(q))) return false;
+    return true;
+  });
+  if(sortKey){
+    rows = rows.slice().sort((a,b)=>{
+      const av=(a[sortKey]||'').toString().toLowerCase();
+      const bv=(b[sortKey]||'').toString().toLowerCase();
+      if(av<bv) return -1*sortDir;
+      if(av>bv) return 1*sortDir;
+      return 0;
+    });
+  }
+  const html = `
+    <table>
+      <thead><tr>
+        <th data-key="employer">Employer</th>
+        <th data-key="position">Position</th>
+        <th data-key="sub">Subspecialty</th>
+        <th data-key="location">Location</th>
+        <th data-key="region">Region</th>
+        <th data-key="type">Type</th>
+        <th data-key="posted">Posted</th>
+        <th>Link</th>
+      </tr></thead>
+      <tbody>${rows.map(d=>`
+        <tr>
+          <td>${d.employer||''}</td>
+          <td class="pos">${d.position||''}</td>
+          <td><span class="sub-tag">${d.sub||''}</span></td>
+          <td>${d.location||''}</td>
+          <td><span class="sub-tag">${d.region||''}</span></td>
+          <td class="type-tag ${typeClass(d.type)}">${d.type||''}</td>
+          <td class="posted">${d.posted||''}</td>
+          <td><a class="link" href="${d.url}" target="_blank" rel="noopener">View ↗</a></td>
+        </tr>`).join('')}</tbody>
+    </table>`;
+  $('tableWrap').innerHTML = html;
+  document.querySelectorAll('thead th[data-key]').forEach(th=>{
+    th.addEventListener('click', ()=>{
+      const key = th.getAttribute('data-key');
+      if(sortKey===key){ sortDir*=-1; } else { sortKey=key; sortDir=1; }
+      renderTable();
+    });
+  });
+  const countText = `${rows.length} of ${ALL_JOBS.length} shown`;
+  $('rowCount').textContent = countText;
+  $('rowCountFoot').textContent = countText;
+  window._filteredRows = rows;
+}
+
+function updateStats(jobs){
+  const na = jobs.filter(d=>d.region==='North America').length;
+  const eu = jobs.filter(d=>d.region==='Europe').length;
+  const asiaAus = jobs.filter(d=>d.region==='Asia' || d.region==='Australia').length;
+  $('statAll').textContent = jobs.length;
+  $('statNA').textContent = na;
+  $('statEU').textContent = eu;
+  $('statAsiaAus').textContent = asiaAus;
+}
+
+function renderSourceStatus(status){
+  if(!status){ $('sourceStatus').style.display = 'none'; return; }
+  const parts = Object.entries(status).map(([name, s])=>{
+    const ok = /^ok/.test(s);
+    return `<span class="${ok?'ok':'fail'}">${name}: ${s}</span>`;
+  });
+  $('sourceStatus').innerHTML = 'Last scrape, per source — ' + parts.join(' · ');
+}
+
+async function init(){
+  try {
+    const res = await fetch('data/jobs.json', {cache: 'no-store'});
+    if(!res.ok) throw new Error('HTTP ' + res.status);
+    const payload = await res.json();
+    ALL_JOBS = payload.jobs || [];
+    $('stampDate').textContent = payload.last_updated
+      ? new Date(payload.last_updated).toLocaleString('en-US', {dateStyle:'medium', timeStyle:'short'})
+      : 'unknown';
+    renderSourceStatus(payload.source_status);
+    populateFilters(ALL_JOBS);
+    updateStats(ALL_JOBS);
+    renderTable();
+  } catch (err) {
+    $('tableWrap').innerHTML = `<div class="error">Couldn't load data/jobs.json (${err.message}). If you're viewing this file directly (file://), serve it over http instead — browsers block fetch() on local files. Run e.g. "python3 -m http.server" in this folder, or view it via GitHub Pages once deployed.</div>`;
+    $('stampDate').textContent = '—';
+  }
+}
+
+$('fType').addEventListener('change', renderTable);
+$('fSub').addEventListener('change', renderTable);
+$('fRegion').addEventListener('change', renderTable);
+$('fSearch').addEventListener('input', renderTable);
+$('btnReset').addEventListener('click', ()=>{
+  $('fType').value=''; $('fSub').value=''; $('fRegion').value=''; $('fSearch').value='';
+  sortKey=null;
+  renderTable();
+});
+$('btnCsv').addEventListener('click', ()=>{
+  const rows = window._filteredRows || ALL_JOBS;
+  const header = ['Employer','Position','Subspecialty','Location','Region','Type','Posted','Link'];
+  const csvRows = rows.map(d=>[d.employer,d.position,d.sub,d.location,d.region,d.type,d.posted,d.url]
+    .map(v=>`"${String(v||'').replace(/"/g,'""')}"`).join(','));
+  const csv = [header.join(','), ...csvRows].join('\n');
+  const blob = new Blob([csv], {type:'text/csv'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = 'business_management_jobs.csv';
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+});
+
+init();
+</script>
+</body>
+</html>

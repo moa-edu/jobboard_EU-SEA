@@ -1,0 +1,529 @@
+{
+  "last_updated": "2026-10-15T04:56:48+00:00",
+  "source_status": {
+    "manual_seed": "ok (49 matched) -- initial compilation via web search, 2026-08-05 / 2026-10-15"
+  },
+  "seen_at": {
+    "https://jobs.chronicle.com/jobs/business-and-management/": "2026-10-15",
+    "https://jobs.chronicle.com/job/37952245/tenure-track-assistant-professor-in-management/": "2026-10-15",
+    "https://jobs.chronicle.com/jobs/management/": "2026-10-15",
+    "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179270052": "2026-10-15",
+    "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179268817": "2026-10-15",
+    "https://jobs.chronicle.com/jobs/marketing-and-sales/tenured-tenured-track/": "2026-10-15",
+    "https://careers.insidehighered.com/job/3510864/2026-2027-assistant-professor-of-marketing-the-wharton-school/": "2026-10-15",
+    "https://www.higheredjobs.com/details.cfm?JobCode=179515746": "2026-10-15",
+    "https://www.higheredjobs.com/state/details.cfm?JobCode=179489615": "2026-10-15",
+    "https://careers.insidehighered.com/job/3534170/assistant-associate-professor-marketing-management-entrepreneurship-and-marketing-dept-fall-2026/": "2026-10-15",
+    "https://academicplacement.ama.org/jobs/": "2026-10-15",
+    "https://www.higheredjobs.com/faculty/search.cfm?JobCat=47": "2026-10-15",
+    "https://jobs.fma.org/jobs/": "2026-10-15",
+    "https://jobs.fma.org/jobs/function/finance/": "2026-10-15",
+    "https://careers.umass.edu/mob/cw/en-us/job/528727/assistant-professor-finance-tenure-track": "2026-10-15",
+    "https://careers.afajof.org/jobs/seasoned-faculty-tenure-track-research-/direct-employer/": "2026-10-15",
+    "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179304343": "2026-10-15",
+    "https://jobs.chronicle.com/jobs/management/non-tenured-track/": "2026-10-15",
+    "https://jobs.phdproject.org/jobs/551132775-assistant-professor-or-advanced-assistant-professor-of-marketing-at-london-business-school": "2026-10-15",
+    "https://www.ie.edu/business-school/jobs/": "2026-10-15",
+    "https://mgmt.ucl.ac.uk/node/5346": "2026-10-15",
+    "https://www.mgmt.ucl.ac.uk/vacancies": "2026-10-15",
+    "https://akadeus.com/newsletter/16": "2026-10-15",
+    "https://www.ssrn.com/index.cfm/en/janda/job-openings/?jobsNet=203": "2026-10-15",
+    "https://business.academickeys.com/seeker_job_display.php?dothis=display&job%5BIDX%5D=276189-276189-rss": "2026-10-15",
+    "https://bschool.nus.edu.sg/marketing/?p=674": "2026-10-15",
+    "https://econjobmarket.org/positions": "2026-10-15",
+    "https://econjobmarket.org/positions/9885": "2026-10-15",
+    "https://www.timeshighereducation.com/unijobs/listings/business-and-management/australia/": "2026-10-15"
+  },
+  "jobs": [
+    {
+      "employer": "Loyola University New Orleans",
+      "position": "Tenure-Track Assistant Professor, Strategic Management (F27)",
+      "sub": "Strategy",
+      "location": "New Orleans, LA",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-07",
+      "url": "https://jobs.chronicle.com/jobs/business-and-management/"
+    },
+    {
+      "employer": "University of Texas at Tyler",
+      "position": "Tenure-Track Assistant Professor in Management (HR / Org. Behavior)",
+      "sub": "OB / HR",
+      "location": "Tyler, TX",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-02",
+      "url": "https://jobs.chronicle.com/job/37952245/tenure-track-assistant-professor-in-management/"
+    },
+    {
+      "employer": "University of Tennessee, Knoxville",
+      "position": "Assistant Professor, Strategic Management — Haslam College",
+      "sub": "Strategy",
+      "location": "Knoxville, TN",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-07",
+      "url": "https://jobs.chronicle.com/jobs/management/"
+    },
+    {
+      "employer": "University of Tennessee, Knoxville",
+      "position": "Assistant Professor, Organizational Behavior / HR — Haslam College",
+      "sub": "OB / HR",
+      "location": "Knoxville, TN",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-07",
+      "url": "https://jobs.chronicle.com/jobs/management/"
+    },
+    {
+      "employer": "University of Tennessee, Knoxville",
+      "position": "2026–2027 Accounting, Economics and Finance Faculty — Haslam College",
+      "sub": "Finance / Accounting",
+      "location": "Knoxville, TN",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-07",
+      "url": "https://jobs.chronicle.com/jobs/management/"
+    },
+    {
+      "employer": "University of Hartford",
+      "position": "Tenure-Track Assistant Professor, Business Analytics (Marketing/Supply Chain)",
+      "sub": "Analytics / Marketing",
+      "location": "West Hartford, CT",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2025-10",
+      "url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179270052"
+    },
+    {
+      "employer": "University of Hartford",
+      "position": "Tenure-Track Assistant Professor of Finance (2026–27)",
+      "sub": "Finance",
+      "location": "West Hartford, CT",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-07",
+      "url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179268817"
+    },
+    {
+      "employer": "Emory University — Goizueta Business School",
+      "position": "Assistant Professor of Marketing and Professional Sales",
+      "sub": "Marketing",
+      "location": "Atlanta, GA",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-07",
+      "url": "https://jobs.chronicle.com/jobs/marketing-and-sales/tenured-tenured-track/"
+    },
+    {
+      "employer": "University of Notre Dame — Mendoza College of Business",
+      "position": "Open Rank Tenured / Tenure-Track Position in Marketing",
+      "sub": "Marketing",
+      "location": "Notre Dame, IN",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-07",
+      "url": "https://jobs.chronicle.com/jobs/marketing-and-sales/tenured-tenured-track/"
+    },
+    {
+      "employer": "University of Pennsylvania — The Wharton School",
+      "position": "2026–2027 Assistant Professor of Marketing",
+      "sub": "Marketing",
+      "location": "Philadelphia, PA",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-05",
+      "url": "https://careers.insidehighered.com/job/3510864/2026-2027-assistant-professor-of-marketing-the-wharton-school/"
+    },
+    {
+      "employer": "California State University, Long Beach",
+      "position": "Assistant Professor of Marketing",
+      "sub": "Marketing",
+      "location": "Long Beach, CA",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-08",
+      "url": "https://www.higheredjobs.com/details.cfm?JobCode=179515746"
+    },
+    {
+      "employer": "Baylor University — Hankamer School of Business",
+      "position": "Assistant Professor, Tenure-Track, Marketing",
+      "sub": "Marketing",
+      "location": "Waco, TX",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://www.higheredjobs.com/state/details.cfm?JobCode=179489615"
+    },
+    {
+      "employer": "University of Mary Hardin-Baylor — McLane College of Business",
+      "position": "Assistant/Associate Professor, Marketing Management",
+      "sub": "Marketing",
+      "location": "Belton, TX",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-07",
+      "url": "https://careers.insidehighered.com/job/3534170/assistant-associate-professor-marketing-management-entrepreneurship-and-marketing-dept-fall-2026/"
+    },
+    {
+      "employer": "University of North Carolina Greensboro — Bryan School of Business",
+      "position": "Assistant Professor, Management / Marketing / Strategy (AI focus)",
+      "sub": "Management / Marketing",
+      "location": "Greensboro, NC",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://academicplacement.ama.org/jobs/"
+    },
+    {
+      "employer": "Georgia College & State University",
+      "position": "Department Chair, Management, Marketing and Logistics",
+      "sub": "Management",
+      "location": "Milledgeville, GA",
+      "region": "North America",
+      "type": "Chair / Admin",
+      "posted": "2026-04",
+      "url": "https://www.higheredjobs.com/faculty/search.cfm?JobCat=47"
+    },
+    {
+      "employer": "Pennsylvania State University — Smeal College of Business",
+      "position": "Marketing Department, Open Rank Tenure-Track Position",
+      "sub": "Marketing",
+      "location": "University Park, PA",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-04",
+      "url": "https://www.higheredjobs.com/faculty/search.cfm?JobCat=47"
+    },
+    {
+      "employer": "University of Wisconsin–Madison",
+      "position": "Consumer Behavior & Marketplace Studies Lecturer",
+      "sub": "Marketing",
+      "location": "Madison, WI",
+      "region": "North America",
+      "type": "Contingent / Lecturer",
+      "posted": "2026-04",
+      "url": "https://www.higheredjobs.com/faculty/search.cfm?JobCat=47"
+    },
+    {
+      "employer": "Loyola University Chicago — Quinlan School of Business",
+      "position": "Assistant Professor in Finance, Tenure Track",
+      "sub": "Finance",
+      "location": "Chicago, IL",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://jobs.fma.org/jobs/"
+    },
+    {
+      "employer": "Virginia Tech — Dept. of Finance, Insurance and Business Law",
+      "position": "Assistant / Associate Professor, Finance",
+      "sub": "Finance",
+      "location": "Blacksburg, VA",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://jobs.fma.org/jobs/function/finance/"
+    },
+    {
+      "employer": "UMass Dartmouth — Charlton College of Business",
+      "position": "Assistant Professor, Finance (Tenure Track)",
+      "sub": "Finance",
+      "location": "Dartmouth, MA",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://careers.umass.edu/mob/cw/en-us/job/528727/assistant-professor-finance-tenure-track"
+    },
+    {
+      "employer": "Marquette University",
+      "position": "Assistant Professor of Finance in Real Estate (Tenure-Track), Fall 2026",
+      "sub": "Finance / Real Estate",
+      "location": "Milwaukee, WI",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://jobs.fma.org/jobs/function/finance/"
+    },
+    {
+      "employer": "University of Cincinnati — Lindner College of Business",
+      "position": "Assistant / Associate Professor, Finance",
+      "sub": "Finance",
+      "location": "Cincinnati, OH",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-05",
+      "url": "https://careers.afajof.org/jobs/seasoned-faculty-tenure-track-research-/direct-employer/"
+    },
+    {
+      "employer": "NYU Shanghai",
+      "position": "Assistant Professor, Finance (2 positions), Fall 2026",
+      "sub": "Finance",
+      "location": "Shanghai, China",
+      "region": "Asia",
+      "type": "Tenure-track",
+      "posted": "2026-05",
+      "url": "https://careers.afajof.org/jobs/seasoned-faculty-tenure-track-research-/direct-employer/"
+    },
+    {
+      "employer": "University of Virginia — Darden School of Business",
+      "position": "Assistant / Associate / Full Professor, Finance",
+      "sub": "Finance",
+      "location": "Charlottesville, VA",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-05",
+      "url": "https://careers.afajof.org/jobs/seasoned-faculty-tenure-track-research-/direct-employer/"
+    },
+    {
+      "employer": "Arizona State University — W. P. Carey School of Business",
+      "position": "Finance Department, Tenured Associate / Full Professor",
+      "sub": "Finance",
+      "location": "Tempe, AZ",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-05",
+      "url": "https://careers.afajof.org/jobs/seasoned-faculty-tenure-track-research-/direct-employer/"
+    },
+    {
+      "employer": "Denison University",
+      "position": "Assistant / Associate Professor of Economics (2), Open Rank — Finance",
+      "sub": "Finance / Economics",
+      "location": "Granville, OH",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2026-05",
+      "url": "https://careers.afajof.org/jobs/seasoned-faculty-tenure-track-research-/direct-employer/"
+    },
+    {
+      "employer": "Stockton University",
+      "position": "Assistant Professor of Finance / Financial Planning",
+      "sub": "Finance",
+      "location": "Galloway, NJ",
+      "region": "North America",
+      "type": "Tenure-track",
+      "posted": "2025-11",
+      "url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179304343"
+    },
+    {
+      "employer": "Purdue University",
+      "position": "Clinical Assistant / Associate Professor, Finance",
+      "sub": "Finance",
+      "location": "West Lafayette, IN",
+      "region": "North America",
+      "type": "Career (non-TT)",
+      "posted": "2026-06",
+      "url": "https://jobs.fma.org/jobs/function/finance/"
+    },
+    {
+      "employer": "Sam Houston State University — McCoy College of Business",
+      "position": "Nontenure Faculty Pool, Dept. of Management",
+      "sub": "Management",
+      "location": "Huntsville, TX",
+      "region": "North America",
+      "type": "Contingent / Adjunct",
+      "posted": "2026-05",
+      "url": "https://jobs.chronicle.com/jobs/management/non-tenured-track/"
+    },
+    {
+      "employer": "Sam Houston State University — McCoy College of Business",
+      "position": "Assistant Professor of Practice in Management",
+      "sub": "Management",
+      "location": "Huntsville, TX",
+      "region": "North America",
+      "type": "Career (non-TT)",
+      "posted": "2026-05",
+      "url": "https://jobs.chronicle.com/jobs/management/non-tenured-track/"
+    },
+    {
+      "employer": "London Business School",
+      "position": "Assistant / Advanced Assistant Professor of Marketing",
+      "sub": "Marketing",
+      "location": "London, UK",
+      "region": "Europe",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://jobs.phdproject.org/jobs/551132775-assistant-professor-or-advanced-assistant-professor-of-marketing-at-london-business-school"
+    },
+    {
+      "employer": "IE Business School",
+      "position": "Tenure-Track Assistant Professor, Accounting & Management Control",
+      "sub": "Accounting / Management",
+      "location": "Madrid, Spain",
+      "region": "Europe",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://www.ie.edu/business-school/jobs/"
+    },
+    {
+      "employer": "IE Business School",
+      "position": "Tenure-Track Assistant / Associate Professor, Marketing",
+      "sub": "Marketing",
+      "location": "Madrid, Spain",
+      "region": "Europe",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://www.ie.edu/business-school/jobs/"
+    },
+    {
+      "employer": "IE Business School",
+      "position": "Tenure-Track Assistant Professor, HR and Organizational Behavior",
+      "sub": "OB / HR",
+      "location": "Madrid, Spain",
+      "region": "Europe",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://www.ie.edu/business-school/jobs/"
+    },
+    {
+      "employer": "UCL School of Management",
+      "position": "Faculty Positions in Marketing (Assistant / Associate / Full Professor)",
+      "sub": "Marketing",
+      "location": "London, UK",
+      "region": "Europe",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://mgmt.ucl.ac.uk/node/5346"
+    },
+    {
+      "employer": "UCL School of Management",
+      "position": "Faculty Positions, Organisations and Innovation Group (OB)",
+      "sub": "OB / HR",
+      "location": "London, UK",
+      "region": "Europe",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://www.mgmt.ucl.ac.uk/vacancies"
+    },
+    {
+      "employer": "Stockholm School of Economics",
+      "position": "Tenure-Track Faculty Position in HRM, Leadership & Organization Studies",
+      "sub": "OB / HR",
+      "location": "Stockholm, Sweden",
+      "region": "Europe",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://akadeus.com/newsletter/16"
+    },
+    {
+      "employer": "NEOMA Business School",
+      "position": "Assistant / Associate / Full Professor, Financial Accounting & Management Control",
+      "sub": "Accounting / Finance",
+      "location": "Reims / Rouen, France",
+      "region": "Europe",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://akadeus.com/newsletter/16"
+    },
+    {
+      "employer": "EMLV — École de Management Léonard de Vinci",
+      "position": "Assistant / Associate Professor in Finance",
+      "sub": "Finance",
+      "location": "Paris, France",
+      "region": "Europe",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://akadeus.com/newsletter/16"
+    },
+    {
+      "employer": "EMLV — École de Management Léonard de Vinci",
+      "position": "Assistant / Associate Professor in Management",
+      "sub": "Management",
+      "location": "Paris, France",
+      "region": "Europe",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://akadeus.com/newsletter/16"
+    },
+    {
+      "employer": "University of Cyprus",
+      "position": "Lecturer or Assistant Professor, Accounting and Finance",
+      "sub": "Finance / Accounting",
+      "location": "Nicosia, Cyprus",
+      "region": "Europe",
+      "type": "Tenure-track",
+      "posted": "2025-11",
+      "url": "https://www.ssrn.com/index.cfm/en/janda/job-openings/?jobsNet=203"
+    },
+    {
+      "employer": "Nanyang Business School — Nanyang Technological University",
+      "position": "Assistant / Associate Professor (Tenure-track) / Professor in Marketing",
+      "sub": "Marketing",
+      "location": "Singapore",
+      "region": "Asia",
+      "type": "Tenure-track",
+      "posted": "2026-07",
+      "url": "https://business.academickeys.com/seeker_job_display.php?dothis=display&job%5BIDX%5D=276189-276189-rss"
+    },
+    {
+      "employer": "NUS Business School — National University of Singapore",
+      "position": "Tenure-Track Assistant / Senior Assistant Professor, Marketing",
+      "sub": "Marketing",
+      "location": "Singapore",
+      "region": "Asia",
+      "type": "Tenure-track",
+      "posted": "2026-05",
+      "url": "https://bschool.nus.edu.sg/marketing/?p=674"
+    },
+    {
+      "employer": "HKUST (Guangzhou)",
+      "position": "Faculty Positions, Society Hub (Business & Management)",
+      "sub": "Management",
+      "location": "Guangzhou, China",
+      "region": "Asia",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://econjobmarket.org/positions"
+    },
+    {
+      "employer": "Asia School of Business",
+      "position": "Faculty Positions in Economics, AI & Data Analytics",
+      "sub": "Economics / Analytics",
+      "location": "Kuala Lumpur, Malaysia",
+      "region": "Asia",
+      "type": "Tenure-track",
+      "posted": "2026-07",
+      "url": "https://econjobmarket.org/positions"
+    },
+    {
+      "employer": "UNSW Business School — School of Banking and Finance",
+      "position": "Lecturer / Senior Lecturer / Associate / Full Professor, Finance & Banking",
+      "sub": "Finance",
+      "location": "Sydney, Australia",
+      "region": "Australia",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://econjobmarket.org/positions/9885"
+    },
+    {
+      "employer": "Australian National University — Research School of Management",
+      "position": "Lecturer in Marketing",
+      "sub": "Marketing",
+      "location": "Canberra, Australia",
+      "region": "Australia",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://www.timeshighereducation.com/unijobs/listings/business-and-management/australia/"
+    },
+    {
+      "employer": "Australian National University — Research School of Management",
+      "position": "Lecturer in Management",
+      "sub": "Management",
+      "location": "Canberra, Australia",
+      "region": "Australia",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://www.timeshighereducation.com/unijobs/listings/business-and-management/australia/"
+    },
+    {
+      "employer": "Australian university (unspecified) — via THEunijobs",
+      "position": "Associate Professor or Professor of Management, AI–Human Interaction and Organisational Behaviour",
+      "sub": "Management / OB",
+      "location": "Australia",
+      "region": "Australia",
+      "type": "Tenure-track",
+      "posted": "2026-06",
+      "url": "https://www.timeshighereducation.com/unijobs/listings/business-and-management/australia/"
+    }
+  ]
+}
